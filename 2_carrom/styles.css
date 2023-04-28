@@ -1,0 +1,22 @@
+body {
+    background:#62374e;
+    margin:0;
+}
+  .square {
+    background:#fdc57b;
+    height:50px;
+    width:50px;
+    position:absolute;
+}
+  .top {
+    top:50px
+}
+  .left {
+    left:50px
+  }
+  .right {
+    left:300px
+  }
+  .bottom {
+    top:200px
+  }

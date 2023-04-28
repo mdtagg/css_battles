@@ -1,0 +1,17 @@
+* {
+    background-color: #998235;
+    margin:0
+}
+
+.lines {
+    height:150px;
+    width:400px;
+    background-image:repeating-linear-gradient(
+    #FCBE5C 0 25px, #0B2429 25px 50px,transparent 50px 75px
+    );
+    position:relative;
+    top:150px;
+    left:200px;
+    transform-origin:bottom;
+    transform:rotate(-45deg)
+} 

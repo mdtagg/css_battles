@@ -1,0 +1,30 @@
+body {
+    background:#6592CF;
+    margin:0;
+    padding:75px 0 0 50px
+}
+  .rectangle {
+    background:#243D83;
+    height:150px;
+    width:300px;
+    position:absolute
+  }
+  .large {
+    height:150px;
+    width:150px;
+    background:#243D83;
+    left:75px;
+    bottom:25px;
+    border:50px solid #6592CF
+}
+  .small {
+    height:50px;
+    width:50px;
+    background:#EEB850;
+    left:175px;
+    top:125px
+}
+  .circle {
+    position:absolute;
+    border-radius:100%
+}

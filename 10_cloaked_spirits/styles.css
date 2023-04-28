@@ -1,0 +1,44 @@
+body {
+    background:#62306D;
+    margin:0
+  }
+  .rectangle {
+    height:100px;
+    width:300px;
+    background:#F7EC7D;
+    margin:200px 50px
+}
+  .pillar {
+    height:200px;
+    width:100px;
+    background:#F7EC7D;
+    position:absolute;
+    bottom:0;
+    left:150px
+}
+  .left {
+    bottom:50px;
+    left:50px;
+}
+  .right {
+    bottom:50px;
+    left:250px;
+}
+  .middle {
+    bottom:150px;
+    left:150px;
+}
+  .red {
+    background:#AA445F;
+    border:20px solid #E38F66;
+  }
+  .orange {
+    background:#E38F66;
+    border:20px solid #AA445F;
+}
+  .circle {
+    height:60px;
+    width:60px;
+    border-radius:100%;
+    position:absolute;
+}

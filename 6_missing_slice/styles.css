@@ -1,0 +1,27 @@
+body {
+    background:#E3516E;
+    margin:0
+}
+.left {
+  left:100px;
+  top:50px
+}
+.turq {
+  background:#51B5A9;
+}
+.white {
+  background:#F7F3D7;
+  rotate:-90deg;
+}
+.yellow {
+  background:#FADE8B;
+  bottom:150px;
+  left:200px;
+  rotate:90deg
+}
+.square {
+  height:100px;
+  width:100px;
+  border-radius:100% 0 0 0;
+  position:relative;
+}

@@ -1,0 +1,19 @@
+body {
+    background:#62306D;
+    margin:0
+}
+  .container {
+    display:flex;
+    justify-content:center
+  }
+  .shape {
+    height:100px;
+    width:100px;
+    background:#F7EC7D;
+    border-radius:120px 120px 0 0;
+    margin-top:50px
+  }
+  .flip {
+    margin-top:150px;
+    rotate:180deg
+}

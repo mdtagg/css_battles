@@ -1,0 +1,31 @@
+body {
+    background:#0B2429;
+    margin:0;
+  }
+  .blue {
+    background:#1A4341;
+}
+  .green {
+    background:#998235;
+  }
+  .yellow {
+    background:#F3AC3C;
+  }
+  .tear {
+    height:150px;
+    width:150px;
+    border-radius:100px 0;
+    position:relative;
+  }
+  .one {
+    top:75px;
+    left:75px
+}
+  .two {
+    left:125px;
+    bottom:75px
+  }
+  .three {
+    bottom:225px;
+    left:175px
+}

@@ -1,0 +1,36 @@
+body {
+    background:#0B2429;
+    margin:0
+  }
+  .light {
+    background:#F3AC3C;
+}
+  .dark {
+    background:#998235;
+  }
+  .square {
+    border-radius:100% 0 100% 100%;
+}
+  .circle {
+    border-radius:100%
+}
+  .shape {
+    height:120px;
+    width:120px;
+    position:relative;
+  }
+  .one {
+    top:150px;
+    left:80px;
+    z-index:3
+}
+  .two {
+    left:140px;
+    bottom:30px;
+    z-index:2
+}
+  .three {
+    z-index:1;
+    left:200px;
+    bottom:210px
+}

@@ -1,0 +1,39 @@
+body {
+    background:#222730;
+    margin:0
+}
+.height {
+    height:150px
+}
+.position {
+    position:relative
+}
+.rectangle {
+    background:#4CAAB3;
+    margin-top:75px;
+}
+.outer {
+    height:250px;
+    width:250px;
+    background:#222730;
+    left:75px;
+    bottom:50px;
+}
+.inner {
+    width:150px;
+    background:#4CAAB3;
+    bottom:250px;
+    left:125px
+}
+.square {
+    rotate:45deg
+}
+.circle {
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    position:absolute;
+    bottom:50px;
+    left:175px;
+    background:#393E46
+}

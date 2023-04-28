@@ -1,0 +1,69 @@
+body {
+    background-color:#E38F66;
+    position:absolute;
+    margin:0;
+  }
+ .cap {
+   height:30px;
+   width:40px;
+   top:100px;
+   position:relative;
+   background:#FFFBDA;
+   border-radius:90px 90px 0 0;
+ }
+ .bar {
+   background-color:#FFFBDA;
+   height:90px;
+   width:80px;
+   position:relative;
+ }
+ .container {
+   display:flex;
+ }
+ .square {
+   height:70px;
+   width:51px;
+   background:#E38F66;
+   position:absolute;
+   z-index:1;
+   border-radius:0 0 0 10px
+}
+ .one {
+   top:100px;
+   border-radius:0 0 0 20px;
+ }
+ .square-one {
+   left:40px;
+   top:110px;
+}
+ .two {
+   top:60px;
+   left:40px;
+   border-radius:0 20px 0 0
+ }
+ .square-two {
+   top:220px;
+   left:29px;
+   border-radius:10px 10px 0 0
+}
+ .three {
+   bottom:10px;
+   left: 85px;
+   transform:rotate(90deg);
+ }
+ .square-three {
+   left:120px;
+   bottom:40px
+ }
+ .four {
+   top:5px;
+   left: 5px;
+   transform:rotate(90deg);
+   border-radius:20px 0 20px;
+}
+ .end {
+   position:absolute;
+   left:165px;
+   top:265px;
+   rotate:90deg
+}

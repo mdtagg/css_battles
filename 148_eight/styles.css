@@ -1,0 +1,23 @@
+body {
+    background-color:#926927;
+    margin:0;
+    position:absolute;
+}
+  .container {
+    width:min-content;
+    position:relative;
+    left:173px;
+    transform-origin:top left;
+    transform:rotate(-45deg)
+}
+  .circle {
+    height:100px;
+    width:100px;
+    background-color:transparent;
+    border-radius:100%;
+    border:40px solid #6D480A
+}
+  .bottom {
+    position:relative;
+    bottom:39px;
+  }
