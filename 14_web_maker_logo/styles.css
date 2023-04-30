@@ -1,0 +1,38 @@
+body {
+    background:#F2F2B6;
+    margin:0
+  }
+  .triangle {
+    height:0;
+    width:0;
+    border-left:75px solid transparent;
+    border-right:75px solid transparent;
+  }
+  .orange {
+    border-top: 130px solid #FF6D00;
+}
+  .red {
+    border-top: 130px solid #FD4602;
+}
+  .right {
+    position:relative;
+    top:85;
+    left:60;
+    z-index:2
+  }
+  .left {
+    position:relative;
+    left:80;
+    bottom:45;
+  }
+  .shift {
+    position:relative;
+    left:171;
+    bottom:142;
+    rotate:60deg;
+}
+  .flip {
+    position:relative;
+    bottom:272;
+    left:151
+}

@@ -1,0 +1,29 @@
+body {
+    background:#09042A;
+    margin:0
+  }
+  .container {
+    display:flex;
+    justify-content:center;
+    position:relative;
+    top:75;
+    left:25
+}
+  .circle {
+    height:150px;
+    width:150px;
+    background:#7B3F61;
+    border-radius:100%;
+}
+  .right {
+    background:#E78481;
+    position:relative;
+    right:50;
+    overflow:hidden;
+}
+  .middle {
+    overflow:hidden;
+    background:#09042A;
+    position:relative;
+    right:100
+}
