@@ -1,0 +1,37 @@
+body {
+    background:#09042A;
+  }
+  .circle {
+    height:60px;
+    width:60px;
+    border-radius:100%;
+    z-index:2;
+    position:absolute;
+    background:#09042A;
+    border:10px solid #E78481;
+  }
+  .left {
+    top:110;
+    left:100;
+  }
+  .right {
+    left:220;
+    top:110;
+  }
+  .square {
+    height:50;
+    width:70;
+    background:#E78481;
+    position:absolute;
+    left:165;
+    top:125;
+  }
+  .top {
+    background:#F5BB9C;
+    left:160;
+    top:57;
+    border:10px solid #09042A;
+  }
+  .bottom {
+    top:163
+  }

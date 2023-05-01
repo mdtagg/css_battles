@@ -1,0 +1,22 @@
+body {
+    background:#5C434C;
+    margin:0px;
+  }
+  .container {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(3,1fr);
+  }
+  .shape {
+    height:80px;
+    width:80px;
+    background:#F09462;
+    border-top-left-radius:100px;
+    position:relative;
+    top:10px;
+    left:10px;
+    margin-bottom:20px;
+  }
+  .white {
+    background:#F5D6B4;
+  }
