@@ -1,0 +1,65 @@
+body {
+    background:#FFFFFF;
+    margin:0
+  }
+  .square {
+    height:200px;
+    width:200px;
+    background:transparent;
+    position:absolute;
+    border:20px solid #0088CA;
+    left:80;
+    rotate:45deg;
+    bottom:132;
+    box-shadow:0 0 0 8px white, inset 0 0 0 8px white;
+    z-index:2;
+  }
+  .white {
+    height:150px;
+    width:120px;
+    position:absolute;
+    background:#FFFFFF;
+    z-index:3;
+  }
+  .right {
+    width:70px;
+    left:320
+  }
+  .top {
+    rotate:90deg;
+    height:200;
+    width:80;
+    bottom:180;
+    left:200
+  }
+  .a {
+    height:220px;
+    width:40px;
+    background:#2E2926;
+    position:absolute;
+    z-index:1;
+  }
+  .left {
+    left:136;
+    rotate:25deg;
+    top:40
+}
+  .bottom {
+    top:240;
+    left:90;
+    width:300
+  }
+  .a-right {
+    left:224;
+    rotate:-25deg;
+    top:40
+  }
+  .dot {
+    height:22px;
+    width:22px;
+    background:#0088CA;
+    position:absolute;
+    top:139;
+    left:189;
+    border-radius:100%;
+  }

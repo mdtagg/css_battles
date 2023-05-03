@@ -1,0 +1,40 @@
+body {
+    background:#000000;
+    margin:0
+  }
+  .bar {
+    width:300px;
+    height:20px;
+    background:#AF067C;
+    border-radius:50px;
+    position:relative;
+    left:50px;
+    top:90px;
+    z-index:2
+  }
+  .slant {
+    rotate:-4deg
+  }
+  .pos {
+    margin-top:30px
+  }
+  .col {
+    height:100px;
+    width:20px;
+    background:#FFFFFF;
+    position:relative;
+    bottom:20px
+  }
+  .col-1 {
+    height:60px;
+    left:80px
+}
+  .col-2 {
+    height:60px;
+    left:190px;
+    bottom:30px
+  }
+  .col-3 {
+    left:300px;
+    bottom:150px
+  }

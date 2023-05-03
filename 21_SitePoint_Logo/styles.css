@@ -1,0 +1,34 @@
+body {
+    background:#222;
+    margin:0
+  }
+  .orange {
+    height:30px;
+    width:80px;
+    background:#F2994A;
+    position:absolute
+}
+  .one {
+    left:149;
+    top:114;
+    transform-origin:center left;
+    rotate:-45deg
+  }
+  .two {
+    rotate:45deg;
+    left:123;
+    top:135;
+    border-radius:0 5px 0 10px;
+  }
+  .blue {
+    left:250;
+    top:155;
+    rotate:135deg;
+    background:#2D9CDB;
+  }
+  .small {
+    position:absolute;
+    rotate:-135deg;
+    top:135;
+    left:195;
+  }
