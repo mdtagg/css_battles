@@ -1,0 +1,34 @@
+* {
+    background:#62306D;
+  }
+  .shape {
+    height:150;
+    width:100;
+    background:#AA445F;
+    border-radius:100px;
+    position:absolute;
+}
+  .circle {
+    border-radius:100%;
+    height:100;
+    width:100;
+    background:#F7EC7D;
+    position:absolute;
+}
+  .one {
+    left:80;
+    top:50
+  }
+  .two {
+    top:100;
+    left:220;
+    background:#E38F66;
+  }
+  .cone {
+    left:80;
+    top:100
+  }
+  .ctwo {
+    left:220;
+    top:100
+  }

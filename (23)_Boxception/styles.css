@@ -1,0 +1,26 @@
+body {
+    background:#F3AC3C;
+    margin-left:100;
+    margin-top:50
+  }
+  div,div::before,div::after {
+    height:200;
+    width:200;
+    background:#1A4341;
+    display:inline-block
+  }
+  div::before {
+    content:"";
+    height:100;
+    width:100;
+    background:#998235;
+    margin-top:100
+  }
+  div::after {
+    height:50;
+    width:50;
+    background:#F3AC3C;
+    content:"";
+    position:relative;
+    right:50
+  }
