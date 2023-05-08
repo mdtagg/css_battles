@@ -1,0 +1,26 @@
+body {
+    background:#F5D6B4
+  }
+  div {
+    background:#D86F45;
+    border-radius:100px;
+    position:absolute;
+  }
+  .circle {
+    height:100px;
+    width:100px;
+}
+  .bar {
+    width:165px;
+    height:50px;
+    top:165px;
+    left:135px;
+  }
+  .one {
+    left:180px;
+    top:85px
+  }
+  .two {
+    left:100px;
+    top:115px;
+  }
