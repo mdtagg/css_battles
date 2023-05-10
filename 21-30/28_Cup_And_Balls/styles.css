@@ -1,0 +1,28 @@
+body {
+    background:#1A4341;
+    margin:0;
+    margin:90 0 0 70;
+  }
+  div {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    justify-items:center;
+    align-items:center;
+    width:260;
+    gap:20px
+}
+  span {
+    height:50;
+    width:50;
+    background:#998235;
+    border-radius:100%;
+  }
+  span[o]:nth-child(even),span[t]:nth-child(odd) {
+    background:#F3AC3C;
+  }
+  [s] {
+    border-radius:0 0 50px 50px
+  }
+  span[o][s] {
+    rotate:180deg;
+  }
