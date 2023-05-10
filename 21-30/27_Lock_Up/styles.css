@@ -1,0 +1,36 @@
+body {
+    background:#E38F66;
+    margin-left:100;
+    margin-top:50;
+  }
+  div {
+    height:200px;
+    width:200px;
+    background:#AA445F;
+    border-radius:100%
+  }
+  span {
+    height:80;
+    width:80;
+    position:absolute;
+    border-radius:100%;
+    left:130;
+    top:80;
+    border:30px solid #F7EC7D
+  }
+  span::before,span::after {
+    content:'';
+    height:100px;
+    width:100px;
+    background:red;
+    position:absolute;
+    right:40;
+    bottom:40;
+    background:#AA445F;
+    border-radius:100px 0 0 0;
+  }
+  span::after {
+    left:40;
+    rotate:180deg;
+    top:40
+  }
