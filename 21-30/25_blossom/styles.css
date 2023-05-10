@@ -1,0 +1,36 @@
+body {
+    background:#998235
+  }
+  div {
+    position:absolute;
+  }
+  .blue {
+    height:100px;
+    width:80px;
+    background:#1A4341;
+    border-radius:0 50px 0 50px;
+  }
+  .yellow {
+    height:60px;
+    width:80px;
+    background:#F3AC3C;
+    border-radius:50px 0 50px 0
+  }
+  .one {
+    left:110px;
+    top:60px
+  }
+  .two {
+    left:210px;
+    top:60px
+  }
+  .three {
+    left:110px;
+    top:180px;
+    border-radius:0 50px 0 50px;
+  }
+  .four {
+    left:210px;
+    top:140px;
+    border-radius:50px 0 50px 0;
+  }
