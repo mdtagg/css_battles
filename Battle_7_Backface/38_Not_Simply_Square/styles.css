@@ -1,0 +1,22 @@
+body {
+    background:#293462;
+    margin:0;
+  }
+  div {
+    height:200px;
+    width:200px;
+    background:#FFF1C1;
+}
+  div:before,div:after {
+    content:'';
+    height:200px;
+    width:100px;
+    position:absolute;
+    left:200px;
+    background:linear-gradient(to bottom,#FE5F55 0 150px,#A64942 150px 200px)
+}
+  div:after {
+    transform-origin:bottom left;
+    rotate:-90deg;
+    top:100px
+  }
