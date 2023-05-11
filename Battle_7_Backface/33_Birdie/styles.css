@@ -1,0 +1,30 @@
+* {
+    background:#1A4341;
+  }
+  div {
+    height:150px;
+    width:75px;
+    background:#998235;
+    border-radius:100px 0 0 100px;
+    position:absolute;
+    left:125px;
+    top:75px
+  }
+  div::before,div::after {
+    content:'';
+    height:100px;
+    width:100px;
+    background:#F3AC3C;
+    position:absolute;
+    left:75px;
+    top:-25px;
+    border-radius:0 100px 0 0
+  } 
+  div::after {
+    height:30px;
+    width:30px;
+    background:#0B2429;
+    border-radius:100%;
+    left:30px;
+    top:30px
+  }
