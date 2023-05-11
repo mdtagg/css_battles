@@ -1,0 +1,22 @@
+body {
+    background:#1A4341;
+    margin:0;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+  }
+  div {
+    height:200;
+    width:50;
+    background:#F3AC3C;
+    border-radius:50px 50px 0 0 
+    
+}
+  div:nth-of-type(even) {
+    background:#998235;
+    rotate:180deg
+  }
+  div:nth-of-type(odd) {
+    align-self:end;
+    margin-left:25;
+    margin-right:25
+  }
