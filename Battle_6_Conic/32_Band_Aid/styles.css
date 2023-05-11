@@ -1,0 +1,25 @@
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    rotate:45deg
+  }
+  div {
+    height:50;
+    width:50;
+    background:#FBE18C;
+    position:absolute
+  } 
+  div::before,div::after {
+    height:50;
+    width:200;
+    content:'';
+    background:#F3AC3C;
+    position:absolute;
+    z-index:-1;
+    left:-75
+  }
+  div::after {
+    rotate:90deg;
+    background:#A3A368
+  }
