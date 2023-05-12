@@ -1,0 +1,25 @@
+* {
+    background:#6592CF;
+  }
+  div {
+    height:100px;
+    width:100px;
+    border:50px solid #243D83;
+    border-radius:50%;
+    position:absolute;
+    left:100px;
+    top:50px;
+  }
+  div:before,div:after {
+    height:100px;
+    width:50px;
+    background:#243D83;
+    content:'';
+    position:absolute;
+    left:-50px;
+    bottom:50px
+  }
+  div:after {
+    background:#6592CF;
+    left:0;
+  }
