@@ -1,0 +1,30 @@
+body {
+    background:#1A4341;
+  }
+  div,div:before,div:after {
+    position:absolute;
+    content:''
+  }
+  div {
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    left:75px;
+    bottom:25px;
+    background:transparent;
+    overflow:hidden
+  }
+  div:before {
+    height:200px;
+    width:200px;
+    background:#998235;
+    border-radius:50%;
+    left:25px;
+    top:25px
+  }
+  div:after {
+    height:140px;
+    width:100%;
+    background:repeating-linear-gradient(to bottom,#1A4341,#1A4341 20px,#F3AC3C 20px,#F3AC3C 40px);
+    top:55px
+  }
