@@ -1,0 +1,24 @@
+body {
+    background:#6592CF;
+    display:flex;
+    justify-content:center;
+    margin:0;
+  }
+  div {
+    width:110px;
+    position:relative;
+    overflow:hidden;
+  }
+  div:before,div:after {
+    content:'';
+    position:absolute;
+    width:300px;
+    height:182px;
+    border:30px solid #243D83;
+    top:30px;
+    right:40px;
+    border-radius:70px
+  }
+  div:after {
+    left:40px
+  }
