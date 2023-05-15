@@ -1,0 +1,50 @@
+body {
+    background:#293462;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+div {
+    position:relative;
+    background:#FFF1C1;
+}
+.head {
+    height:200px;
+    width:200px;
+    background:#FE5F55;
+    border-radius:100px 100px 50px 50px;
+    overflow:hidden;
+}
+.hair {
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    bottom:50px;
+}
+.right {
+    left:100px;
+    bottom:150px
+}
+.eye {
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    left:20px;
+    bottom:110px
+}
+.eye-right {
+    bottom:170px;
+    left:110px
+}
+.mouth {
+    height:10px;
+    width:40px;
+    top:100px;
+    position:absolute;
+    z-index:2;
+    right:85px;
+    top:170px;
+    border-radius:20px
+}
