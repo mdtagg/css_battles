@@ -1,0 +1,32 @@
+* {
+    background:#1A4341;
+  }
+  div {
+    margin-left:90;
+    margin-top:60;
+    height:200;
+    width:200;
+    background:repeating-linear-gradient(
+      #F3AC3C,
+      #F3AC3C 20px,
+      #1A4341 20px,
+      #1A4341 40px
+    )
+  }
+  div:before,div:after {
+    content:'';
+    height:300;
+    width:300;
+    border-radius:100%;
+    background:#1A4341;
+    position:absolute;
+}
+  div:before {
+    right:250;
+    bottom:80;
+    top:0;
+  }
+  div:after {
+    left:250;
+    bottom:0
+  }
