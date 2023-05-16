@@ -1,0 +1,37 @@
+body {
+    background:#1A4341;
+    margin:0
+  }
+  div {
+    height:120;
+    width:90;
+    background:#1A4341;
+    margin-left:125;
+    border:30px solid #998235;
+    border-top:0
+  }
+  div:before,div:after,span,span:after {
+    position:absolute;
+    content:''
+  }
+  div:before {
+    width:270;
+    height:30;
+    background:#998235;
+    left:65;
+    top:240
+  }
+  span {
+    height:200;
+    width:210;
+    bottom:90;
+    left:65;
+    border:30px solid #F3AC3C
+  }
+  span:after {
+    height:300;
+    width:30;
+    background:#F3AC3C;
+    left:90;
+    top:20
+  }
