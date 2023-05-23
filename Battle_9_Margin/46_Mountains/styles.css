@@ -1,0 +1,33 @@
+body {
+    background:#293462;
+    display:flex;
+    align-items:center;
+    justify-content:center
+  }
+  div {
+    height:200;
+    width:200;
+    background:#FFF1C1;
+    border-radius:50%;
+    overflow:hidden;
+    position:relative
+  }
+  div:before,div:after {
+    content:'';
+    background:#FE5F55;
+    position:absolute;
+  }
+  div:before {
+    height:30;
+    width:30;
+    top:135;
+    left:15;
+    rotate:45deg
+  }
+  div:after {
+    height:200;
+    width:100;
+    left:56;
+    top:65;
+    rotate:45deg;
+  }
