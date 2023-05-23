@@ -1,0 +1,42 @@
+* {
+    background:#6592CF;
+  }
+  div,div:before,span,span:before {
+    position:absolute;
+  }
+  div {
+    height:100;
+    width:150;
+    background:#243D83;
+    border-radius:0 0 10px 10px;
+    left:125;
+    top:150
+  }
+  div:before {
+    border-right:100px solid transparent;
+    border-left:100px solid transparent;
+    border-bottom:100px solid #243D83;
+    bottom:100;
+    left:-25
+  }
+  div:before,span:before {
+    content:'';
+  }
+  span,span:before {
+    background:#EEB850;
+  }
+  span {
+    display:block;
+    height:10;
+    width:100;
+    border-radius:10px;
+    left:150;
+    top:145
+  }
+  span:before {
+    height:50;
+    width:50;
+    border-radius:10px 10px 0 0;
+    left:25;
+    top:55
+  }
