@@ -1,0 +1,29 @@
+body {
+    background:#293462;
+  }
+  div {
+    background:#FE5F55;
+    left:100;
+    top:90;
+  }
+  div,div:before {
+    height:100;
+    width:200;
+}
+  div,div:before,div:after {
+    content:'';
+    position:absolute;
+    border-radius:20px;
+  }
+  div:before {
+    background:#A64942;
+    top:20;
+    z-index:-1
+}
+  div:after {
+    height:40;
+    width:140;
+    background:#A64942;
+    left:30;
+    top:30
+  }
