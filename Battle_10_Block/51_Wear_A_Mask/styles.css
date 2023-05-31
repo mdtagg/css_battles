@@ -1,0 +1,46 @@
+body {
+    background:#293462;
+  }
+  .straps {
+    height:40px;
+    width:250px;
+    position:absolute;
+    left:65;
+    top:100;
+    border-radius:50px;
+    border:10px solid #FFF1C1;
+    z-index:1
+}
+  .mask {
+    height:100px;
+    width:150px;
+    background:#FFF1C1;
+    position:absolute;
+    left:125;
+    top:100;
+    border-radius:0 0 50px 50px;
+    z-index:2
+  }
+  .bar {
+    height:10px;
+    width:40px;
+    background:#FE5F55;
+    border-radius:5px
+  }
+  .top {
+    margin-left:20;
+    margin-top:20;
+  }
+  .bottom {
+    margin-left:20;
+    margin-top:10
+  }
+  .circle {
+    height:40px;
+    width:40px;
+    background:#FE5F55;
+    border-radius:50%;
+    position:absolute;
+    top:40;
+    left:90
+  }
