@@ -1,0 +1,84 @@
+* {
+    background:#1A4341;
+  }
+  .green {
+    background:#998235
+  }
+  .yellow {
+    background:#F3AC3C;
+  }
+  #handle {
+    height:20px;
+    width:150px;
+    background:#F3AC3C;
+    position:absolute;
+    left:150;
+    top:50;
+    border-radius:20px;
+  }
+  #spout {
+    height:40px;
+    width:20px;
+    background:#F3AC3C;
+    position:absolute;
+    left:280;
+    top:50;
+    border-radius:10px
+  }
+  #neck {
+    width:20px;
+    height:20px;
+    background:#F3AC3C;
+    position:absolute;
+    left:190;
+    top:70
+  }
+  #cap {
+    height:50px;
+    width:50px;
+    background:#F3AC3C;
+    position:absolute;
+    left:175;
+    top:90;
+    border-radius:10px
+  }
+  #bottle {
+    height:110px;
+    width:100px;
+    position:absolute;
+    left:150;
+    top:110
+  }
+  .bottle-top {
+    height:50%;
+    background:#F3AC3C;
+    border-radius:20px 20px 0 0
+  }
+  .bottle-bottom {
+    height:85px;
+    border-radius:0 0 20px 20px
+  }
+  .ball {
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    position:absolute;
+    left:150;
+    top:140
+  }
+  .right {
+    left:200
+  }
+  .small {
+    height:20px;
+    width:20px;
+    background:#998235;
+  }
+  .top {
+    left:280;
+    top:100;
+  }
+  .bottom {
+    left:280;
+    top:130;
+  }
