@@ -1,0 +1,33 @@
+body {
+    background:#19191A;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .container {
+    height:200px;
+    width:150px;
+  }
+  .rect {
+    height:125px;
+    background:#F9E492;
+    width:50%;
+    position:relative;
+    z-index:-1;
+    top:75
+  }
+  .circle {
+    height:150px;
+    width:150px;
+    background:#4F77FF;
+    border-radius:50%;
+    position:fixed;
+    overflow:hidden;
+  }
+  .shader {
+    height:75px;
+    width:75px;
+    background:#9AD5FF;
+    position:relative;
+    top:75
+}
